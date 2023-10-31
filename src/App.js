@@ -30,7 +30,9 @@ function App() {
 
   return (
     <div className = "cont">
-      <Search onSearchChange={handleOnSearchChange}/>
+      <div className = "searchBar">
+        <Search onSearchChange={handleOnSearchChange}/>
+      </div>
       <Weather />
     </div>
   );
