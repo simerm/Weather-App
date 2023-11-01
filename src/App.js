@@ -33,7 +33,10 @@ function App() {
       <div className = "searchBar">
         <Search onSearchChange={handleOnSearchChange}/>
       </div>
-      <Weather />
+      <div className = "currWeather">
+        <Weather />
+      </div>
+      
     </div>
   );
 }
