@@ -1,0 +1,15 @@
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+    margin:10px;
+    color:white;
+    
+    
+}
+
+.hourly{
+    border-left: 1px solid white;
+    margin:10px;
+}
