@@ -1,17 +1,17 @@
 import React from 'react'
 import "./current-weather.css"
 
-const handleDate = (value, offset) =>{
+// const handleDate = (value, offset) =>{
 
-  const clientOffset = new Date().getTimezoneOffset();
-  const offsetTimestamp = (value + (clientOffset * 60) + offset)
-  var date = new Date(offsetTimestamp * 1000);
+//   const clientOffset = new Date().getTimezoneOffset();
+//   const offsetTimestamp = (value + (clientOffset * 60) + offset)
+//   var date = new Date(offsetTimestamp * 1000);
 
-  // let date = new Date(value*1000);
-  let hour = date.getHours();
-  let min = date.getMinutes();
-  return hour + ":" + min;
-}
+//   // let date = new Date(value*1000);
+//   let hour = date.getHours();
+//   let min = date.getMinutes();
+//   return hour + ":" + min;
+// }
 
 const Weather = ({ data, alt }) => {
   return (
