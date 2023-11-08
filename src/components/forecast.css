@@ -1,91 +1,106 @@
-.test{
+.test {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    align-items:center;
-    margin:20px;
-    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    color: white;
     line-height: 1;
-    /* width:1000px; */
     flex-wrap: wrap;
-    
+
+
 }
 
-.hourly{
-    
-    /* margin:10px; */
+.hourly {
     display: flex;
     flex-direction: row;
-    align-items:center;
-    justify-content:space-around;
+    align-items: center;
+    justify-content: space-around;
     line-height: 1;
-    /* display: flex;
-    
-    justify-content:center; */
 }
-.item{
+
+.item {
     border-left: 1px solid white;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     line-height: 1;
-    
-    
-}
-.weather-icon{
-    /* width:50px; */
-    line-height: 1;
-    
 }
 
-.title{
+.title {
     line-height: 1;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items:flex-end;
+    align-items: flex-end;
     padding-bottom: 10px;
     border-bottom: 1px solid white;
 }
-.date{
+
+.date {
     line-height: 1;
-    margin:0;
-    font-weight: 500;
+    margin: 0;
+    font-weight: 600;
 }
 
-.desc{
+.desc {
     line-height: 1;
-    margin:0;
-    font-size:14px;
+    margin: 0;
+    font-size: 14px;
 }
 
-.temperature{
+.temperature {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 550;
     line-height: 1;
 }
-.mid{
+
+.mid {
     line-height: 1;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content:flex-end; */
+
 }
 
-.lab{
-    color:white;
+.lab {
+    color: white;
     font-size: 25px;
     margin-left: 20px;
+    font-weight: 550;
+}
+
+.parameter-r {
+    font-size: 13px;
+    display: flex;
+
+    border: 1px solid #e8ddeaee;
+
+    padding: 7px;
+    border-radius: 7px;
+    line-height: 1;
+    margin-bottom: 8px;
     font-weight: 500;
 }
 
-.parameter-r{
-    font-size: 12px;
-    /* display:flex;
-    align-items: flex-end; */
-}
-.dets{
-    display:flex;
+.dets {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+
+}
+
+.parameter-l {
+    display: flex;
+    font-weight: 550;
+    align-items: center;
+    margin-right: 3px;
+    line-height: 1;
+}
+
+.parameter-v {
+    display: flex;
+
+    align-items: end;
+    line-height: 1;
+
 }

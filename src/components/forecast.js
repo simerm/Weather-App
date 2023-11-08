@@ -35,15 +35,16 @@ const Forecast = (data) => {
                             <div className="title">
                                 <p className="date">{handleDate(item.dt_txt)}</p>
                                 <p className="desc">{item.weather[0].main}</p>
+                                
                             </div>
                         </div>
                         <div className="mid">
                             <p className="temperature"> {Math.round(item.main.temp)}˚F </p>
                             <div className="dets">
-                                <div className="parameter-r">
+                                {/* <div className="parameter-r">
                                     <span className="parameter-l"> Feels Like: </span>
                                     <span className="parameter-v"> {Math.round(item.main.feels_like)} ˚F</span>
-                                </div>
+                                </div> */}
                                 <div className="parameter-r">
                                     <span className="parameter-l"> Wind: </span>
                                     <span className="parameter-v"> {item.wind.speed} m/s</span>
