@@ -28,9 +28,9 @@ function App() {
     .catch((err) => console.log(err));
   }
 
-  console.log(currWeather);
-  console.log(forecast);
-  console.log(testing);
+  // console.log(currWeather);
+  // console.log(forecast);
+  // console.log(testing);
 
   return (
     <div className = "cont">
